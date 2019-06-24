@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# Welcome
 
-You can use the [editor on GitHub](https://github.com/Fluke95/Disease-Spread-Simulation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This model was prepared as an assignment for classes *Multi-agent modeling*.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**NOTE** This is just a simple simulation project, I'm not convinced that it imitates reality well enough, as I don't have specialist knowledge in this subject.
 
-### Markdown
+This model simulates the process of epidemic disease spread. In particular, it raises the problem of **herd immunity**, which is a form of defence against epidemic diseases, which protects people that can't (or won't) be vaccinated, because when the majority of population is vaccinated (immune), then the disease can't spread.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The greater the proportion of immune ones (either in natural way or vaccinated), the lower the chance that those endangered will have contact with the disease. In case of, for example measles or smallpox, the *herd immunity threshold* is estimated to be 92-95% for the first one and 80-86% for the latter.  
+The contact with infected person is necessary for these diseases to spread.
 
-```markdown
-Syntax highlighted code block
+The model performs a simulation of a hypothetical disease, that can be spread by contact with infected ones.
+  
+  
+__Sources__  
+* [Fine P., Eames K., Heymann D. L.. "Herd immunity": A rough guide. „Clinical Infectious Diseases”](https://academic.oup.com/cid/article/52/7/911/299077).
+* [Vanderslott S., Roser M., "Vaccination"](https://ourworldindata.org/vaccination#how-vaccines-work-herd-immunity-and-reasons-for-caring-about-broad-vaccination-coverage).
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Fluke95/Disease-Spread-Simulation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## TODO
+* results analysis (with more scenarios)

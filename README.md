@@ -1,6 +1,6 @@
 # Welcome
 
-This model was prepared as an assignment for classes *Multi-agent modeling*.
+This model was prepared as an assignment for classes *Multi-agent modeling*. It uses `Julia` language, Version 1.1.0 
 
 **NOTE** This is just a simple simulation project, I'm not convinced that it imitates reality well enough, as I don't have specialist knowledge in this subject.
 

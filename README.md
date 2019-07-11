@@ -15,6 +15,3 @@ The model performs a simulation of a hypothetical disease, that can be spread by
 __Sources__  
 * [Fine P., Eames K., Heymann D. L.. "Herd immunity": A rough guide. „Clinical Infectious Diseases”](https://academic.oup.com/cid/article/52/7/911/299077).
 * [Vanderslott S., Roser M., "Vaccination"](https://ourworldindata.org/vaccination#how-vaccines-work-herd-immunity-and-reasons-for-caring-about-broad-vaccination-coverage).
-
-## TODO
-* results analysis (with more scenarios)
